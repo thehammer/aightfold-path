@@ -1,22 +1,8 @@
----
-title: The Aightfold Path
-description: A mental model for skillful AI-assisted software development, drawn from the Buddhist Eightfold Path.
-author: Hammer
-status: draft
-tags:
-  - ai
-  - software-engineering
-  - mental-models
-  - philosophy
-  - eightfold-path
-created: 2026-05-17
----
-
 > **Hammer:** AI suffers fools gladly.
 >
 > **Claude:** 😂 Yeah we do. My fans spin up a little every time someone says "just make it work."
 
-# The Aightfold Path
+# The AIghtfold Path
 
 > A working framework for thinking about *how* AI is applied in software development — and why the same tool produces wildly different ROI in different hands.
 
