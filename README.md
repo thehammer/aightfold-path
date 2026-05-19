@@ -56,6 +56,14 @@ The path is more useful when mapped to concrete tools and systems — things tha
 
 Callimachus emerged from the same work that produced this framework. It's a reference implementation of what "designed-in discipline" looks like for AI-augmented knowledge work.
 
+**[Nostromo](https://github.com/thehammer/nostromo)** addresses a different layer — orchestration and awareness rather than knowledge. It's a unified TUI dashboard for the full AI agent ecosystem (code review, background jobs, email, calendar, PR queue) with persistent daemon-owned sessions that survive terminal close. Several limbs are expressed in its design:
+
+- *Right Mindfulness* — all agent activity is visible in one place. You can't stay aware of what agents are producing if their output is scattered across eight tmux windows.
+- *Right Action* — inline approval modals and a first-class PR review view make reviewing AI output a low-friction workflow step, not something that gets skipped under pressure.
+- *Right Concentration* — daemon-owned PTYs with detach/reattach, layout persistence, and command palette are designed for sustained, uninterrupted practice.
+
+Where Callimachus is the library — knowledge pre-built and queryable — Nostromo is the cockpit — awareness of what the agents are doing in real time. The path needs both layers.
+
 ## Status
 
 This is a draft. The model is meant to be filled in over time, with examples, anti-patterns, and a fuller mapping from each limb to the tools, agents, and systems that embody it structurally rather than relying on individual virtue alone.
