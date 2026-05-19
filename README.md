@@ -44,9 +44,21 @@ Skillful practice means letting AI accelerate the left-hemisphere grunt work *so
 
 AI suffers fools gladly. A human senior engineer suffers fools *poorly* on purpose — the friction is the teaching. With AI, that discernment must come from inside the practitioner, or be designed into the tooling. The eightfold discipline isn't a nice-to-have on top of AI-assisted development; it's what stands between leverage and slop.
 
+## In Practice
+
+The path is more useful when mapped to concrete tools and systems — things that embody a limb structurally rather than asking practitioners to remember to apply it.
+
+**[Callimachus](https://github.com/thehammer/callimachus)** is one such system. It builds a queryable index over arbitrary corpora — books, codebases, wikis — and exposes pre-computed semantic artifacts (summaries, purposes, contracts, entity graphs) to LLMs at query time. Several limbs are directly expressed in its architecture:
+
+- *Right Mindfulness* — the index is a ground truth about your corpus, queryable against a model's claims. Confabulation becomes visible.
+- *Right Action* — a scholia layer (non-destructive corrections) makes structured review part of the workflow, not an afterthought.
+- *Right Effort* — comprehension runs once at index time, freeing practitioner attention for reasoning and judgment rather than re-reading.
+
+Callimachus emerged from the same work that produced this framework. It's a reference implementation of what "designed-in discipline" looks like for AI-augmented knowledge work.
+
 ## Status
 
-This is a draft. The model is meant to be filled in over time, with examples, anti-patterns, and ideally a mapping from each limb to the tools, agents, and systems that embody it structurally rather than relying on individual virtue alone.
+This is a draft. The model is meant to be filled in over time, with examples, anti-patterns, and a fuller mapping from each limb to the tools, agents, and systems that embody it structurally rather than relying on individual virtue alone.
 
 ---
 
